@@ -27,6 +27,10 @@ body {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* Logo */
 
 .logo {
