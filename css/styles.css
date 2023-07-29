@@ -192,12 +192,17 @@ h2 {
   color: var(--ocean, #404bbf);
 }
 
+a.main-link {
+  color: var(--ocean, #404bbf);
+}
+
 .contacts-items {
   display: flex;
   flex-direction: row;
   gap: 40px;
 }
 
+.contacts-items li,
 .contacts-items a {
   color: var(--slate, #434455);
   font-size: 16px;
