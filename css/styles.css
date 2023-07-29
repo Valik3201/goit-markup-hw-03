@@ -64,9 +64,9 @@ h2 {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  align-items: center;
+  /* align-items: center;
   align-content: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .section {
@@ -74,6 +74,11 @@ h2 {
   padding-top: 120px;
   padding-bottom: 120px;
   column-gap: 24px;
+}
+
+.nav-menu-section {
+  display: flex;
+  align-items: center;
 }
 
 .team-section {
@@ -150,7 +155,7 @@ h2 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .text-color-iris {
@@ -175,6 +180,7 @@ h2 {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24pz 0;
 }
 
 .nav-items a:active {
@@ -183,7 +189,6 @@ h2 {
 
 .contacts-items {
   display: flex;
-  margin-left: auto;
   gap: 40px;
 }
 
