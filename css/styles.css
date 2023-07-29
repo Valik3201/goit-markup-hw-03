@@ -37,11 +37,15 @@ ul {
   list-style-type: none;
 }
 
+ul,
+h3,
+p,
 figure {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
+  padding-inline-start: 0;
 }
 
 h2 {
@@ -58,13 +62,13 @@ h2 {
   padding: 0 15px;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
 
 .section {
   display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
-  row-gap: 8px;
   column-gap: 24px;
 }
 
@@ -90,9 +94,23 @@ h2 {
   flex-direction: row;
   max-width: 1158px;
   column-gap: 24px;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding-bottom: 120px;
 }
 
 .footer-container {
@@ -112,6 +130,8 @@ h2 {
 /* Header */
 
 .top-line {
+  height: 72px;
+  padding: 24px 0;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 
@@ -126,6 +146,7 @@ h2 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  padding-right: 76px;
 }
 
 .text-color-iris {
@@ -205,9 +226,7 @@ h2 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em; /* 120% */
-  letter-spacing: 0.4px;
-  margin-block-end: 0;
-  margin-block-start: 0;
+  margin-bottom: 8px;
 }
 
 /* Buttons */
@@ -236,6 +255,7 @@ h2 {
 }
 
 .filter-btn button {
+  padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   outline: none;
@@ -278,6 +298,7 @@ h2 {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
   max-width: 264px;
+  padding-top: 16px;
 }
 
 /* Images */
@@ -293,4 +314,16 @@ h2 {
 .team-image-caption {
   padding: 32px 0;
   text-align: center;
+}
+
+.project-image-caption figcaption {
+  text-align: start;
+  padding: 32px 16px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--cornflower, #e7e9fc);
+}
+
+.goals li {
+  width: 264px;
 }

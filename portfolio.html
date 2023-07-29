@@ -28,36 +28,38 @@
   <body>
     <!-- Page header -->
     <header class="top-line">
-      <!-- Navbar -->
-      <a href="#" class="logo"
-        ><span class="text-color-iris">WEB</span>STUDIO</a
-      >
+      <div class="container">
+        <!-- Navbar -->
+        <a href="#" class="logo"
+          ><span class="text-color-iris">WEB</span>STUDIO</a
+        >
 
-      <nav>
-        <ul class="nav-items">
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+        <nav>
+          <ul class="nav-items">
+            <li><a href="index.html">Studio</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Contacts section -->
+        <ul class="contacts-items">
+          <li>
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         </ul>
-      </nav>
-      <!-- Navbar End -->
-
-      <!-- Contacts section -->
-      <ul class="contacts-items">
-        <li>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      </ul>
-      <!-- End Contacts section -->
+        <!-- End Contacts section -->
+      </div>
     </header>
     <!-- End page header -->
 
     <!-- Main section -->
     <main>
       <!-- Filters section -->
-      <section>
-        <ul class="filter-btn">
+      <section class="container">
+        <ul class="btn-section filter-btn">
           <li><button type="button">All</button></li>
           <li><button type="button">Web Site</button></li>
           <li><button type="button">App</button></li>
@@ -68,8 +70,10 @@
       <!-- End filter section -->
 
       <!-- Projects section -->
-      <section>
-        <ul class="heading-section sub-paragraph">
+      <section class="container">
+        <ul
+          class="projects-section heading-section sub-paragraph project-image-caption"
+        >
           <li>
             <figure>
               <img
@@ -203,14 +207,18 @@
     <!-- End main section -->
 
     <!-- Page footer -->
-    <footer class="dark-bg">
-      <a href="#" class="logo text-color-cloud"
-        ><span class="text-color-iris">WEB</span>STUDIO</a
-      >
-      <p class="footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="dark-bg-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <a href="#" class="logo text-color-cloud"
+            ><span class="text-color-iris">WEB</span>STUDIO</a
+          >
+          <p class="footer-paragraph">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
     <!-- End page footer -->
   </body>
