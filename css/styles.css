@@ -37,6 +37,10 @@ ul {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 ul,
 h3,
 p,
