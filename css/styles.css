@@ -64,9 +64,6 @@ h2 {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  /* align-items: center;
-  align-content: center;
-  justify-content: center; */
 }
 
 .section {
@@ -76,9 +73,17 @@ h2 {
   column-gap: 24px;
 }
 
+.header-container {
+  display: flex;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .nav-menu-section {
   display: flex;
   align-items: center;
+  margin-left: 0;
 }
 
 .team-section {
