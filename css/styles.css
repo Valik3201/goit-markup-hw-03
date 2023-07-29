@@ -27,6 +27,7 @@ body {
 .dark-bg-footer {
   height: 312px;
   background: var(--navyblue, #2e2f42);
+  padding: 100px 0;
 }
 
 .light-bg {
@@ -129,11 +130,12 @@ h2 {
 
 .footer-container {
   display: flex;
-  justify-content: flex-start;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  padding-top: 100px;
+  flex-direction: column;
+}
+
+.footer-container a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-section {
@@ -319,7 +321,6 @@ a.main-link {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
   max-width: 264px;
-  padding-top: 16px;
 }
 
 /* Images */
