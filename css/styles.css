@@ -361,7 +361,7 @@ a.main-link {
   width: calc((100% - 72px) / 4);
 }
 
-.visually-hidden h1 {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
