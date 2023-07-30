@@ -243,6 +243,19 @@ a.main-link {
 
 /* Heading */
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .heading-main {
   color: var(--white, #fff);
   text-align: center;
@@ -373,7 +386,7 @@ a.main-link {
 }
 
 .team-image-caption {
-  padding: 32px 16px;
+  padding: 32px 16px 32px;
 }
 
 .team-image-caption h3 {
@@ -401,21 +414,4 @@ a.main-link {
 
 .goals li {
   width: calc((100% - 72px) / 4);
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
-.block {
-  display: inline-block;
 }
