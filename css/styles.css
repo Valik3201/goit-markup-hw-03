@@ -111,10 +111,8 @@ h2 {
 .btn-section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  column-gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .projects-section {
@@ -143,6 +141,19 @@ h2 {
 .footer-section {
   display: flex;
   flex-direction: column;
+}
+
+.portfolio-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 /* Header */
@@ -282,7 +293,7 @@ a.main-link {
   background: var(--ocean, #404bbf);
 }
 
-.filter-btn button {
+.filter-btn {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
@@ -300,13 +311,13 @@ a.main-link {
   letter-spacing: 0.64px;
 }
 
-.filter-btn button:hover,
-.filter-btn button:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--white, #fff);
   background: var(--ocean, #404bbf);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--ocean, #404bbf);
+  border: 1px solid transparent;
   outline: none;
 }
 
@@ -351,12 +362,16 @@ a.main-link {
   text-align: center;
 }
 
-.project-image-caption figcaption {
+.project-image-caption {
   text-align: start;
+  width: calc((100% - 48px) / 3);
+}
+
+.project-caption {
   padding: 32px 16px;
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: var(--cornflower, #e7e9fc);
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .goals {
