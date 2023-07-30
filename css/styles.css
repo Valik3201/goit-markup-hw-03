@@ -70,9 +70,11 @@ h2 {
 
 .goal-item-section {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  column-gap: 24px;
+  gap: 24px;
+}
+
+.goals li {
+  width: calc((100% - 72px) / 4);
 }
 
 .flex-column {
@@ -244,16 +246,7 @@ a.main-link {
 /* Heading */
 
 .visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+  display: none;
 }
 
 .heading-main {
@@ -386,7 +379,10 @@ a.main-link {
 }
 
 .team-image-caption {
-  padding: 32px 16px 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .team-image-caption h3 {
@@ -406,12 +402,4 @@ a.main-link {
   padding: 32px 16px 32px;
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
-}
-
-.goals {
-  gap: 24px;
-}
-
-.goals li {
-  width: calc((100% - 72px) / 4);
 }
