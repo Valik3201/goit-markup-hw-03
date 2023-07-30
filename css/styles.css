@@ -378,3 +378,7 @@ a.main-link {
   white-space: nowrap;
   border: 0;
 }
+
+.block {
+  display: inline-block;
+}
