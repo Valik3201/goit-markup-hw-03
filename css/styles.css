@@ -74,6 +74,10 @@ h2 {
   column-gap: 24px;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .header-container {
   display: flex;
   max-width: 1158px;
@@ -126,11 +130,16 @@ h2 {
 }
 
 .projects-section {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
   padding-bottom: 120px;
+}
+
+.projects-items-section {
+  display: flex;
+  gap: 24px;
+}
+
+.projects-items-section li {
+  width: calc((100% - 48px) / 3);
 }
 
 .footer-container {
@@ -247,6 +256,7 @@ a.main-link {
   line-height: 1.11em; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .heading-section h3 {
