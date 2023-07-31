@@ -130,21 +130,6 @@ h2 {
   width: calc((100% - 48px) / 3);
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo-link {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-section {
-  display: flex;
-  flex-direction: column;
-}
-
 .portfolio-container {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -177,7 +162,15 @@ h2 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.logo-header {
   margin-right: 76px;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .text-color-iris {
