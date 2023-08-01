@@ -1,4 +1,4 @@
-# Web Studio Project - HTML, CSS, and Flexbox Styling
+# Web Studio - HTML, CSS, and Flexbox Styling
 
 Welcome to the Web Studio project continuation! In this part of the project, the focus has been on enhancing the graphic design and layout of web pages using CSS styles and the Flexbox positioning technique.
 
